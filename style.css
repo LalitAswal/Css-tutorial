@@ -1,27 +1,13 @@
-/* universal selector  */
-
-*{
-    front-family: monospace;
-    color: rgb(235, 10, 216);
-}
-body{
+h1{
+    border: 2px dashed blue;
+    width: 50%;
+    height: 50%;
     text-align: center;
-    border: 4px solid red ;
-
 }
-/* p selector  */ 
+
+main{
+    font-size: 2rem;
+}
 p{
-    color: green;
+    font-size: 2rem;
 }
-
-/* class selector */
-.classarticle1{
-    color:blue ;
-}
-
-/* id selector  high priority then class selector  */
-
-#idarticle1{
-    color:rgb(98, 128, 0);
-}
-
