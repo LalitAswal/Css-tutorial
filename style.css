@@ -3,11 +3,22 @@ h1{
     width: 50%;
     height: 50%;
     text-align: center;
+    font-size: 2rem;
+    padding: 1 rem;
+    /* 3  rem  48 px */
 }
 
 main{
     font-size: 2rem;
+    /* The rem unit is relative to the font size of the root element (usually the <html> element), rather than its parent. */
+
 }
 p{
-    font-size: 2rem;
+    /* The em unit is relative to the font size of its parent element. */
+
+    font-size: 2em;
+    /* ch character  */
+    width: 40ch;
+    /* width: 40vw; */
+
 }
