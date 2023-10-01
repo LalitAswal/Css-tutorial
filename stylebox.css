@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border:  dashed red;
+    border-top: 1.5rem solid green;
+    border-right: 1.5rem dotted yellow;
+
+    font-size: 1.5rem;
+    margin:1.5rem;
+    margin:2rem 2em 2em 5em ;
+    /* top right botton left clockwise rotation */ 
+    padding: 1rem;
+    outline: 5px solid purple;
+    outline-offset: -24px;
+} 
+
+.circle {
+    margin: 3rem auto ;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid black;
+    outline: 2px solid red; 
+    outline-offset: 10px;
+    outline-color: blue;
+    border-radius: 50px;
+};
+.innerCircle{
+    margin: 3rem;
+    border: 2px solid rgb(255, 47, 47);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(94, 9, 243);
+    border-radius: 25px;
+
+
+}
+
+/* 
+typography 

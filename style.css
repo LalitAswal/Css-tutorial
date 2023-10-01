@@ -1,24 +1,24 @@
-h1{
-    border: 2px dashed blue;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    font-size: 2rem;
-    padding: 1 rem;
-    /* 3  rem  48 px */
-}
-
-main{
-    font-size: 2rem;
-    /* The rem unit is relative to the font size of the root element (usually the <html> element), rather than its parent. */
+body{
+    padding: 25%;
+    font-size: 1rem;
+    font-family: sans-serif;
 
 }
+
 p{
-    /* The em unit is relative to the font size of its parent element. */
+text-align: justify;
+/* text-indent: 2em; */
+line-height: 1.5;
+/* font-style:oblique; */
 
-    font-size: 2em;
-    /* ch character  */
-    width: 40ch;
-    /* width: 40vw; */
-
+}
+.submit{
+    border: 2px solid red;
+    background-color: rgb(12, 242, 139);
+    width: 60px;
+    height: inherit;
+    margin:0.5rem;
+    border-radius: 10px;
+    outline: 2px blue;
+    outline-offset: 30px;
 }
