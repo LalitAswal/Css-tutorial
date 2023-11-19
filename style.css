@@ -1,11 +1,11 @@
-
+/* 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+ ===========================display ===================================
 body {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
@@ -15,7 +15,7 @@ body {
     background-color: aqua;
 } */
 /* learning about display property  block level element */
-p {
+/* p {
     background-color: lightgray;
     margin: 100px 50px;
 }
@@ -28,7 +28,7 @@ p {
     height: 200px;
     padding: 4rem;
     /* cant apply margin-top or hight in block level element  */
-} 
+/* }  */
 
  /* inline level element  doesn't stack on each other 
 usage case
@@ -37,7 +37,7 @@ usage case
  */
 
 
-ul {
+/* ul {
     list-style-type: none;
     padding: 0.5rem;
     text-align: right;
@@ -49,3 +49,39 @@ li{
     display: inline-block;
     margin-inline:  0.5rem;
 }
+a{
+    text-decoration: none;
+
+}  */
+
+/* ================float ================== */
+
+body{
+font-variant-position: 1.5rem;
+font-family: "Roboto", sans-serif;
+}
+
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+
+
+
+
