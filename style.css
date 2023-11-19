@@ -1,116 +1,52 @@
-/* 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
- ===========================display ===================================
-body {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-}
-
-/* main {
-    background-color: aqua;
-} */
-/* learning about display property  block level element */
-/* p {
-    background-color: lightgray;
-    margin: 100px 50px;
-}
-
-.country {
-    display: inline-block;
-    background-color: #333;
-    color:  whitesmoke;
-    margin-top: 100px ;  
-    height: 200px;
-    padding: 4rem;
-    /* cant apply margin-top or hight in block level element  */
-/* }  */
-
- /* inline level element  doesn't stack on each other 
-usage case
- using link in button 
- list into row 
- */
-
-
-/* ul {
-    list-style-type: none;
-    padding: 0.5rem;
-    text-align: right;
-    background-color: lightgray;
-    margin: 0;
-}
-
-li{
-    display: inline-block;
-    margin-inline:  0.5rem;
-}
-a{
-    text-decoration: none;
-
-}  */
-
-/* ================float ================== */
-
-/* body{
-font-variant-position: 1.5rem;
-font-family: "Roboto", sans-serif;
-}
-
-
-.block {
-    width: 30vw;
-    height: 30vw;
-    background-color: black;
-    color: aliceblue;
-    padding: 1rem;
-}
-
-
-.left {
-    float: left;
-    margin-right: 1rem;
-}
-
-.right {
-    float: right;
-    margin-left: 1rem;
-} */
-
-/* css columns */
-
 
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
+    min-height: 200 vh;
 }
 
-.columns {
-    /* column-count: 4;
-    column-width: 250px; */
-    columns: 4 250px;
-    column-rule: 3px solid #333;
-    column-gap: 3rem;
+.outer-container {
+    border: 3px dashed black;
+    width: 75vm;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+
+
 }
 
-.columns p {
-    margin-top: 0;
+/*  inner-container */
+
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vm;
+    height: 50vh;
+    margin: 200px 30px 200px 30px;
+    position: relative;
 }
 
-h2 {
-    background-color: #333;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
-    break-inside: avoid;
-    
+.box {
+    width: 150px;
+    height: 75px;
+    color: rgba(0, 0, 0, .5);
+    padding: 0.5rem;
 }
 
 
+.absolute {
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
-
-
+.relative {
+    background-color: pink;
+    position: relative;
+    top: 0;
+    left: 0;
+}
